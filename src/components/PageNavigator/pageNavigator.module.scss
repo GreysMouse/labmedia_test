@@ -1,0 +1,16 @@
+.pageNavigator {
+  /* display */
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  /* dimensions */
+  margin: 20px 0 0;
+  padding: 6px 0;
+}
+
+.pageButton {
+  &:hover {
+    cursor: pointer;
+    background-size: 110%;
+  }
+}

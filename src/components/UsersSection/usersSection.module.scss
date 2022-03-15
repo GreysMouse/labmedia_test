@@ -1,0 +1,7 @@
+@use '../../styles/sections.scss' as sections;
+
+.heading {
+    @include sections.heading;
+    /* dimensions */
+    margin: 12px 0 20px;
+}

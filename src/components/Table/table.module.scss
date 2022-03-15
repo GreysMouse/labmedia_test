@@ -1,0 +1,30 @@
+@use '../../styles/sections.scss' as sections;
+
+.container {
+  @include sections.container;
+}
+
+.table {
+  /* dimensions */
+  width: 100%;
+  /* borders */
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.caption {
+  display: none;
+}
+
+.headCell {
+  /* position */
+  text-align: left;
+  /* dimensions */
+  padding: 16px 0 22px;
+  line-height: 1.4;
+  /* colors */
+  color: #9eaab4;
+  /* font */
+  font-size: 10px;
+}
+

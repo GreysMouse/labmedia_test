@@ -1,0 +1,44 @@
+.sortingFilter {
+  // display
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  // dimensions
+  margin: 72px 0 15px;
+}
+
+.heading {
+  // dimensions
+  margin: 0;
+  line-height: 1.4;
+  // colors
+  color: #9eaab4;
+  // font
+  font-size: 10px;
+}
+
+.radioBtn {
+  // display
+  display: none;
+}
+
+.radioBtnLabel {
+  // dimensions
+  line-height: 1.4;
+  // borders
+  border-bottom: 1px dashed;
+  // colors
+  color: #9eaab4;
+  // font
+  font-size: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.radioBtnLabel_checked {
+  // colors
+  color: #333;
+}
+

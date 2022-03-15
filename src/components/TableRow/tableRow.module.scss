@@ -1,0 +1,40 @@
+.row {
+  /* borders */
+  border-top: 1px solid #f7f7f7;
+}
+
+.cell {
+  /* dimensions */
+  padding: 14px 0 20px;
+  line-height: 1.33;
+  /* colors */
+  color: #acacac;
+  /* font */
+  font-size: 12px;
+}
+
+.cell_firstCol {
+  /* colors */
+  color: #0cb4f1;
+  /* font */
+  font-weight: 700;
+}
+
+.delButton {
+  /* display */
+  display: block;
+  /* dimensions */
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  /* borders */
+  border: none;
+  /* background */
+  background: url(../../images/table-row-delete-button.svg) center/contain no-repeat;
+
+  &:hover {
+    cursor: pointer;
+    background-size: 110%;
+  }
+}
+

@@ -1,0 +1,28 @@
+@use '../../styles/app.scss' as app;
+
+.app {
+  /* dimensions */
+  height: 100vh;
+  /* colors */
+  background-color: app.$bkgColor;
+  /* fonts */
+  font: {
+    family: app.$fontFamily;
+    size: app.$fontSize;
+    weight: app.$fontWeight;
+  }
+  /* misc */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  /* display */
+  display: flex;
+  flex-direction: column;
+  /* dimensions */
+  margin: 0 auto;
+  padding: app.$padding;
+  max-width: app.$maxWidth;
+  box-sizing: border-box;  
+}

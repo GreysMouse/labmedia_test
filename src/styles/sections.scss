@@ -1,0 +1,23 @@
+@mixin heading {
+  /* dimensions */
+  line-height: 1.17;
+  /* colors */
+  color: #333;
+  /* font */
+  font: {
+    size: 24px;
+    weight: 700;
+  }
+}
+
+@mixin container {
+  /* dimensions */
+  padding: 0 16px;
+  /* borders */
+  border-radius: 7px;
+  /* background */
+  background-color: #fff;
+  /* effects */
+  box-shadow: 0px 18px 15px 0px #94949426;
+}
+
